@@ -5,6 +5,7 @@ body {
 }
 nav {
     background-color: cyan;
+    width: 100%;
 }
     .navbar ul {
         display: flex;
@@ -12,6 +13,7 @@ nav {
         padding-bottom: 10px;
         list-style: none;
         padding-left: 0;
+        width: 100%;
     }
     .navbar li {
         display: inline-flex;
@@ -28,7 +30,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5em;
+    margin-top: 2em;
     }
     .logo a {
         text-decoration: none;
@@ -37,6 +39,12 @@ nav {
     .logo p {
         display: flex;
         justify-content: center;
+    }
+    .logo img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+        max-width: 33vw;
     }
 .center {
     display: flex;
